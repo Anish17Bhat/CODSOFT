@@ -5,10 +5,10 @@ using namespace std;
 int main()
 {
     srand(time(0));
-    //generating a random number and storing it in random variable
+    //generating a random number and storing it in a random variable
     int random=(rand()%100)+1;          
     int guess;
-    //tries=The no of time the player has tried to guess the number(initializing to zero)
+    //tries=The no. of times the player has tried to guess the number(initializing to zero)
     int tries=0;              
     cout<<"Welcome to the Number Guessing Game!"<<endl;
     while(random!=guess){
